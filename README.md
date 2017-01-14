@@ -2,7 +2,7 @@
 
 Sample code: cd ~/facerec/py/apps/videofacerec
 
-## Use sample code : python simple_videofacerec.py -t data/ test_model.pkl
+### Use sample code : python simple_videofacerec.py -t data/ test_model.pkl
 
 
 ## Test model by image
@@ -23,4 +23,5 @@ App(model=model,
 
 
 Original from :https://github.com/bytefish/facerec
+
 Reference document :http://bytefish.de/blog/videofacerec/
