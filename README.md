@@ -1,18 +1,18 @@
-# facerecognition
+# Face Recognition
 
 Sample code: cd ~/facerec/py/apps/videofacerec
 
-#Use sample code : python simple_videofacerec.py -t data/ test_model.pkl
+## Use sample code : python simple_videofacerec.py -t data/ test_model.pkl
 
 
-# Test model by image
+## Test model by image
 This sample code will show the tag of test person. 
 If you want to change test person, please change line 110 in simple_videofacerec.py
 
 line 110: frame = cv2.imread('test/s4/9.pgm')
 
 
-#Test model by Video
+## Test model by Video
 Please modify line 252 in simple_videofacerec.py
 
 App(model=model,
